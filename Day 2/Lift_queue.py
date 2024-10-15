@@ -14,7 +14,7 @@ class Lift:
             print(f"Invalid request. Please select a floor between 0 and {self.total_floors - 1}.")
 
     def move_lift(self):
-        while not self.requests.empty(): 
+        while self.requests: 
             next_floor = self.requests.get()  
             print(f"Moving from floor {self.current_floor} to floor {next_floor}.")
             self.current_floor = next_floor 
