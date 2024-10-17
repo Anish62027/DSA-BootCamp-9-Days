@@ -8,7 +8,6 @@ class Stack:
         self.head = None
         self.tail = None
 
-    
     def is_empty(self):
         return self.head is None
 
