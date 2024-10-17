@@ -9,18 +9,15 @@ class Stack:
         self.tail = None
 
 
-    def reverse(self):
-        prev = None
-        curr = self.tail =self.head
-        next_node = None
-
-        while(curr != None):
-            next_node = curr.next
-            curr.next = prev
-            prev = curr
-            curr = next_node
-
-        self.head = prev
+    def print_reverse(self, node):
+        if node is None:
+            return -1
+        self.print_reverse(node.next)
+        print(node.data, end=" -> ") 
+    
+    def print_list_reverse(self):
+        self.print_reverse(self.head)
+        print("Null")
 
     
     def is_empty(self):
@@ -90,7 +87,7 @@ while True:
     elif choice == 4:
         stack.display()
     elif choice == 5:
-        stack.reverse()
+        stack.print_list_reverse()
         print("Successfully Reverse ")
     elif choice ==6:
         print("Exiting the stack operations.")
