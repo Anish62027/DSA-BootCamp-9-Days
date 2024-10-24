@@ -37,26 +37,26 @@ This project is an **E-Commerce Recommendation System** that uses a **Linked Lis
 ---
 
 ## Project Structure
-app.py: Main application file with the Streamlit interface.
-README.md: Project documentation.
-requirements.txt: List of dependencies to run the project.
+- **app.py:** Main application file with the Streamlit interface.
+- **README.md:** Project documentation.
+- **requirements.txt:** List of dependencies to run the project.
 
 ---
 
 ## Usage
-Display Products: The application shows a list of available products.
-Select a Product: Choose a product you like from the dropdown list.
-Get Recommendations: Click the "Recommended" button to see products in the same category.
-Add to Cart: Add any recommended products to your shopping cart.
-Buy Now: Complete your purchase by clicking the "Buy Now" button.
+- **Display Products:** The application shows a list of available products.
+- **Select a Product:** Choose a product you like from the dropdown list.
+- **Get Recommendations:** Click the "Recommended" button to see products in the same category.
+- **Add to Cart:** Add any recommended products to your shopping cart.
+- **Buy Now:** Complete your purchase by clicking the "Buy Now" button.
 
 ---
 
 
 ## Future Improvements
-User authentication and profile management.
-Personalized recommendations based on purchase history.
-More sophisticated recommendation algorithms (e.g., collaborative filtering).
+- User authentication and profile management.
+- Personalized recommendations based on purchase history.
+- More sophisticated recommendation algorithms (e.g., collaborative filtering).
 
 ---
 
